@@ -1,3 +1,5 @@
+git clone --recurse-submodules git@github.com:antoine163/ble-smart-lock.git
+
 # Bluetooth LE Smart Lock
 Ce projet consiste en une serrure électronique pouvant être déverrouillée via Bluetooth Low Energy. 
 
