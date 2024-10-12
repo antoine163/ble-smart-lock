@@ -1,9 +1,12 @@
 [submodule "hardware"]
 	path = hardware
 	url = git@github.com:antoine163/ble-smart-lock-hardware.git	
+	branch = develop
 [submodule "firmware"]
 	path = firmware
 	url = git@github.com:antoine163/ble-smart-lock-firmware.git
+	branch = develop
 [submodule "android-app"]
 	path = android-app
 	url = git@github.com:antoine163/ble-smart-lock-android-app.git
+	branch = develop
