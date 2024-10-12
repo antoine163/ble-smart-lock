@@ -1,0 +1,9 @@
+[submodule "hardware"]
+	path = hardware
+	url = https://github.com/antoine163/ble-smart-lock-hardware
+[submodule "firmware"]
+	path = firmware
+	url = https://github.com/antoine163/ble-smart-lock-firmware
+[submodule "android-app"]
+	path = android-app
+	url = https://github.com/antoine163/ble-smart-lock-android-app
