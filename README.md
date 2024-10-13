@@ -31,11 +31,11 @@ Ce dépôt contient le code source et les instructions nécessaires pour constru
 ## Composants du projet
 Ce projet est divisé en plusieurs parties organisées dans plusieurs dépôts git.
 
- - **Carte principale - [BleSmartLock](hardware/BleSmartLock/README.md)**: Basée sur le module [bluenrg-m2](https://www.st.com/en/wireless-connectivity/bluenrg-m2.html), cette carte gère les communications BLE, le contrôle de la serrure et les interactions avec les autres composants.
- - **Carte optionnelle - [LightSensor](hardware/LightSensor/README.md)**: Cette carte optionnelle mesure la luminosité ambiante et transmet ces informations à la carte principale pour activer l'éclairage extérieur la nuit.
+ - **Carte principale - [BleSmartLock](https://github.com/antoine163/ble-smart-lock-hardware/blob/fac16eb566a4af86191339edda613465644f4e27/BleSmartLock/README.md)**: Basée sur le module [bluenrg-m2](https://www.st.com/en/wireless-connectivity/bluenrg-m2.html), cette carte gère les communications BLE, le contrôle de la serrure et les interactions avec les autres composants.
+ - **Carte optionnelle - [LightSensor](https://github.com/antoine163/ble-smart-lock-hardware/blob/fac16eb566a4af86191339edda613465644f4e27/LightSensor/README.md)**: Cette carte optionnelle mesure la luminosité ambiante et transmet ces informations à la carte principale pour activer l'éclairage extérieur la nuit.
  - **Carte optionnelle - [Mini-Light](https://github.com/antoine163/Mini-Light/tree/master/Elec/light#readme)**: Cette carte optionnelle correspond à la carte pour l'éclairage extérieur. Elle est composer de LEDs blanche de puissance. *Note*: cette carte est récupérer d'un autre project.
-- **[Firmware](firmware/README.md) de la carte *BleSmartLock***: Développé pour le module [bluenrg-m2](https://www.st.com/en/wireless-connectivity/bluenrg-m2.html), il gère notamment la connexion BLE et le déverrouillage de la serrure.
-- **Application Android - [Ble Smart Key](firmware/README.md)**: Cette application permet le déverrouillage de la serrure via BLE, la configuration, le scan et l'appairage, le renommage de la serrure.
+- **[Firmware](https://github.com/antoine163/ble-smart-lock-firmware/blob/9cb6d8342cd18b56b877ad480816891a71d6a8cf/README.md) de la carte *BleSmartLock***: Développé pour le module [bluenrg-m2](https://www.st.com/en/wireless-connectivity/bluenrg-m2.html), il gère notamment la connexion BLE et le déverrouillage de la serrure.
+- **Application Android - [Ble Smart Key](https://github.com/antoine163/ble-smart-lock-android-app/blob/2b3781987bed7a110fac411ad62f901769ec650e/README.md)**: Cette application permet le déverrouillage de la serrure via BLE, la configuration, le scan et l'appairage, le renommage de la serrure.
 
 ### Les dépôts:
  - [ble-smart-lock-hardware](https://github.com/antoine163/ble-smart-lock-hardware): Contient les cartes électroniques *BleSmartLock* et *LightSensor*. 
