@@ -79,7 +79,7 @@ Le PIN par défaut est 215426. Il peut être changé via la liaison série avec 
 ### Fermeture du mode appairage
 Le mode appairage peut être désactivé de plusieurs façons :
  - En appuyant brièvement sur le bouton *bond*.
- - Automatiquement après un délai de 10 secondes.
+ - Automatiquement après un délai de 60 secondes.
  - Automatiquement après une tentative d'appairage réussie ou échouée.
 
 ### Effacement de la liste des appareils appairés
@@ -87,13 +87,17 @@ Pour effacer la liste des appareils appairés, maintenez le bouton *bond* enfonc
 
 ## Liste des commandes série
 - `help`: Afficher l'aide.
+- `version`: Afficher le numéro de version du firmware.
 - `verbose` : Lecture/écriture du mode verbeux. 1 pour activer, 0 (par défaut) pour désactiver.
+- `nom` : Lecture/écriture du nom de la serrure.
 - `pin` : Lecture/écriture du code PIN (215426 par défaut).
 - `bri` : Lecture de la luminosité ambiante.
 - `bri-th` : Lecture/écriture du seuil jour/nuit (50% par défaut).
+- `config` : Affiche toute la configuration.
 - `bond` : Afficher la liste des appareils appairés.
 - `bond-clear` : Supprimer tous les appareils appairés (ou maintenir le bouton *bond* enfoncé pendant plus de 3 secondes).
 - `reset` : Réinitialiser toutes les valeurs par défaut.
+- `top` : Affiche le statut des tâches système.
 
 ## LED rouge
 La LED rouge située sur le PCB s'allume/clignote en fonction de l'activité radio.  
