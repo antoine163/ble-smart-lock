@@ -26,7 +26,7 @@ Ce dépôt contient le code source et les instructions nécessaires pour constru
 - **Renommage de la Serrure BLE** : Permet de personnaliser le nom de la serrure pour une identification facile.
 - **Déverrouillage et réglage de la Proximité BLE** : Permet de déverrouiller la serrure et d'ajuster la distance de déverrouillage.
 - **Ouverture par Bouton** : Permet l'ouverture de la serrure via un bouton sur l'application.
-- **Notification d'Éloignement** : Avertit l'utilisateur si la serrure n'est pas verrouillée lorsqu'il s'éloigne.
+- ~~**Notification d'Éloignement** : Avertit l'utilisateur si la serrure n'est pas verrouillée lorsqu'il s'éloigne.~~~
 
 ## Composants du projet
 Ce projet est divisé en plusieurs parties organisées dans plusieurs dépôts git.
