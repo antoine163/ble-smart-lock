@@ -3,6 +3,10 @@
 Ce dépôt contient le code source et les instructions nécessaires pour construire et utiliser une serrure électronique intelligente basée sur Bluetooth Low Energy (BLE). Cette serrure peut être déverrouillée via une application Android. Le projet est divisé en plusieurs parties, couvrant différents aspects de la serrure, de la carte électronique au firmware en passant par l'application mobile.
 
 
+Image d'illustration:
+![Illustration](images/Illustration2.jpg)
+
+
 ## Fonctionnalités
 
 ### Générales
